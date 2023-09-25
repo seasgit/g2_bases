@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 900px;
+    height: 500px;
+    background: url(./images/fond.png);
+    background-size: cover;
+}
+
+figure {
+    width: 300px;
+    text-align: right;
+}
+
+figure img {
+    margin-top: 60px;
+    margin-bottom: 200px;
+    width: 200px;
+}
+
+div p {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 42px;
+    line-height: 1;
+    color: white;
+}
+
+div p:nth-of-type(1) {
+    color: yellow
+}

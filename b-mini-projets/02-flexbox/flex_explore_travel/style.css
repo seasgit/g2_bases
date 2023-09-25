@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+    --color-green: rgba(0, 120, 78, 0.671);
+    --color-title: rgb(1, 97, 1);
+}
+
+/* reset des marges */
+* {
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    width: 900px;
+    height: 450px;
+    margin: 50px auto 0 auto;
+    box-shadow: 0 5px 20px #aaa;
+    background: url(./images/SVG/dotted-line.svg);
+    background-position: -48px -38px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header,
+figure {
+    width: 49%;
+    height: 100%;
+}
+
+figure img{
+    width: 100%;
+    height: 100%;
+}
+
+.timeto,
+.world {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--color-green);
+}
+
+.explore {
+   font-family: 'Lobster', sans-serif; 
+   font-size: 80px;
+   color:var(--color-title);
+   line-height: 0.8;
+   margin-bottom: 20px;
+}
+
+.world {
+    margin-bottom: 10px;
+}
+
+.lorem {
+    text-align: center;
+    width: 70%;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background-color: var(--color-green);
+    color:white;
+    padding: 10px 25px;
+    border-radius: 100px;
+}

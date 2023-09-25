@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+.container {
+    width: 1000px;
+    height: 280px;
+    padding-top: 80px;
+    padding-left: 20px;
+    background: url(./images/fond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
+
+.container h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+    color: rgb(12, 82, 12);
+}
+
+.container h2 {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.container p {
+    margin-bottom: 15px;
+    font-size: 18px;
+    width: 380px;
+    color: green;
+}
+
+.container img {
+    margin-right: 5px;
+}
