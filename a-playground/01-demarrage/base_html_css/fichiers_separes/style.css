@@ -1,0 +1,19 @@
+h1 {
+  /* propriete: valeur;   */
+  color: #ff0000;
+  font-size: 50px;
+}
+
+p {
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+/* 
+    pour des titres h1,h2,ul
+    tester
+        - couleurs,couleur de fond
+        - taille de texte,
+        - espacement de lettres
+
+*/

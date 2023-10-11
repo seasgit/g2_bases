@@ -1,0 +1,18 @@
+/* tous les p */
+p {
+    font-family: sans-serif;
+}
+
+/* p de section */
+section p {
+    letter-spacing: 3px;
+    color: #777;
+}
+/* dans section le 2ème p */
+section p + p {
+    font-size: 25px;
+}
+
+section p span {
+    color: hotpink;
+}
