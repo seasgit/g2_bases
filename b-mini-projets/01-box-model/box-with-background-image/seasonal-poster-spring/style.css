@@ -1,0 +1,35 @@
+* {
+    /* reset */
+    margin: 0;
+}
+
+
+/* embarquer une police de caractères */
+@font-face {
+    font-family:mathlete ;
+    src: url(./fonts/mathlete-bulky.woff);
+}
+
+section {
+    width: 400px; height: 600px;
+    /* background-color: #ccc; */
+    background-image: url(./images/spring-8.png);
+    /* le  background couvre la zone du conteneur */
+    background-size: cover;
+    /* espace en haut */
+    padding-top: 10px;
+}
+
+section {
+    text-align: center;
+    /* les marges gauche et droite auto centrent la boite */
+    margin-left: auto; margin-right: auto;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 120px;
+    font-family: mathlete;
+    letter-spacing: 4px;
+    color:rgb(57, 157, 43)
+}
