@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;700;800&display=swap');
+*{
+    margin: 0;
+}
+
+section {
+    /*  dimensions avec hauteur automatique */
+    width: 500px;
+    height: auto;
+    /* centrage */
+    margin-left: auto;
+    margin-right: auto;
+    /* espace interne */
+    padding: 20px 10px 20px 10px;
+    margin-top: 50px;
+    text-align: center;
+    /* ombre portée */
+    box-shadow: 0 5px 20px #999;
+    background-image: url(./images/SVG/dotted-line.svg);
+    background-position: -47px -47px;
+}
+
+h1 {
+    font-family: 'Lobster', sans-serif;
+}
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 40px;
+}
+
+a {
+    display: block;
+}
+
+img {
+    width: 80%;
+}

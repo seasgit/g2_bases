@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* reset pour tous les éléments */
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: reey;
+    src: url(./fonts/reey-regular.woff);
+}
+
+
+section {
+    /* dimensions de la boite */
+    width: 400px;
+    height: 400px;
+    /* centrage avec les marges */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    /* arrière plan */
+    background-image: url(./images/08.png);
+    background-size: cover;
+    text-align: center;
+    /* espace interne en haut */
+    padding-top: 30px;
+}
+
+h1 {
+    font-family: reey;
+    font-size: 40px;
+    color: orange;
+    /* on fait passer h1 au dessus du h2 */
+    position: relative;
+}
+
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 46px;
+    line-height: 1;
+    color: rgb(0, 44, 0);
+}
