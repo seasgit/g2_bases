@@ -29,6 +29,16 @@ h2 {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* 
+    nth-of-type est une pseudo classe qui permet de cibler un élément avec un numéro
+    ici c'est le deuxième h2
+    voir dans le cours  : https://github.com/seasgit/aide_html_css/blob/main/4.%20css-selecteurs.md#5-pseudo-classes
+
+ */
+h2:nth-of-type(2) {
+    margin-bottom: 10px;
+}
+
 
 p {
     font-family: 'Montserrat', sans-serif;
