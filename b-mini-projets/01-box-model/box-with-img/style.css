@@ -22,6 +22,8 @@ section {
 
 h1 {
     font-family: 'Lobster', sans-serif;
+    font-size: 50px;
+    color: rgb(12, 101, 12);
 }
 
 
@@ -43,10 +45,21 @@ h2:nth-of-type(2) {
 p {
     font-family: 'Montserrat', sans-serif;
     padding: 0 40px;
+    margin-bottom: 20px;
 }
 
-a {
-    display: block;
+/* un sélecteur class commence avec un point */
+.btn-learn {
+    font-family: sans-serif;
+    border-radius: 50px;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    background-color: rgb(12, 101, 12);
+    color:white;
+}
+
+figure {
+    padding-top: 40px;
 }
 
 img {
