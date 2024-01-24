@@ -1,0 +1,31 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    /* alignement flex */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* --- */
+    width: 1200px;
+    padding-top: 15px;
+    /* espace en haut et en bas */
+    padding-bottom: 15px;
+    background: #b3b3b3;
+}
+
+/* 
+   la largeur est calculée 
+   avec 100% de la largeur/3  
+*/
+.gallery img {
+    width: 30%;
+}
