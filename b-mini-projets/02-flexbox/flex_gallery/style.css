@@ -4,3 +4,27 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    /* alignement flex */
+    display: flex;
+    justify-content: space-evenly;
+    /* --- */
+    width: 1200px;
+    padding-top: 15px;
+    /* espace en haut et en bas */
+    padding-bottom: 15px;
+    background: #b3b3b3;
+}
+
+/* 
+   la largeur est calculée 
+   avec 100% de la largeur/6  
+*/
+.gallery img {
+    width: 15%;
+}
