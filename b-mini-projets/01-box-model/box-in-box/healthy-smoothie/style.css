@@ -13,8 +13,59 @@
     margin: 0;
 }
 
+
 section {
+    margin: 50px auto 0;
     width: 400px;
     height: 400px;
     background: url(./images/01.png);
+}
+
+/*  img n° 1 dans la section
+*/
+section img:nth-of-type(1) {
+    width: 80px;
+    text-align: left;
+}
+
+/* la figure qui prend toute la largeur de la section s'occupe d'aligner l'img à droite  */
+figure {
+    text-align: right;
+    margin-right: 5px;
+}
+
+figure img {
+    width: 80px;
+}
+
+header {
+    padding-top: 60px;
+    text-align: right;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+header h1 span {
+    display: block;
+    font-weight: normal;
+}
+
+/* pseudo class pour sélection du bon span */
+
+header h1 span:nth-of-type(1) {
+    font-family: 'reey-regular', sans-serif;
+    color: rgb(255, 145, 0);
+    font-size: 36px;
+    line-height: 1;
+    /* superposer */
+    position: relative;
+}
+
+header h1 span:nth-of-type(2),
+header h1 span:nth-of-type(3) {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    line-height: 1;
+    color: rgb(0, 56, 0);
+    font-weight: bold;
 }
