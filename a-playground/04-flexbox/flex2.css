@@ -1,0 +1,41 @@
+/* reset des marges et padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% de la hauteur du viewport */
+}
+/* 
+sélecteur de classe 
+ça commence par un point
+*/
+
+.flexbox {
+    /* modele d'alignement avec répartition en 2 rangées 2 colonnes */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    /* -- */
+    width: 400px;
+    height: 400px;
+    background: #d8d8d8;
+}
+
+/* pour tous les div de la section nommée .flexbox*/
+.flexbox div {
+    width: 150px;
+    height: 150px;
+}
+
+/* ici on s'adresse individuellement à chaque div */
+
+.box1 {background-color: red;}
+.box2 {background-color: dodgerblue;}
+.box3 {background-color: greenyellow;}
+.box4 { background-color: hotpink;}
