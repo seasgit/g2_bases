@@ -1,0 +1,48 @@
+/*  voir définition du boxmodel sur mon cours */
+
+.p1 {
+    /* dimensions */
+    width: 400px;
+    height: auto;
+    /* marges et espaces internes */
+    margin-left: 80px;
+    margin-top: 50px;
+    /* raccourci margin : 50px 0 0 80px */
+    /* ordre du raccourci: top right bottom left */
+    padding: 5px 10px 5px 10px;
+    /* décoratif */
+    background-color: antiquewhite;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    border:5px solid #6c5204;
+}
+
+/* 
+    la section est centrée horizontalement
+    le titre est centré dans la section
+    l'alignement du texte est justifié
+    le tout reste lisible grâce au marges et padding
+*/
+
+
+section {
+    width: 400px;
+    height: auto;
+    /* centrée dans le navigateur */
+    margin: 50px auto 0 auto;
+    /* espace interne horizontal */
+    padding: 0 10px 0 10px;
+    /* -- */
+    background-color: azure;
+    border: 2px solid blue;
+}
+
+section h1 {
+    text-align: center;
+}
+
+section p {
+    text-align: justify;
+}
+

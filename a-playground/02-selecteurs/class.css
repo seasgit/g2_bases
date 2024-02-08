@@ -12,7 +12,7 @@ qui commence par un point
     font-size: 24px;
 }
 
-/* le  span de l'élémen de classe .first
+/* le  span de l'élément de classe .first
    passe en rouge au survol */
 .first span:hover {
     color:red;
