@@ -1,0 +1,25 @@
+/* 
+On veut que le 2ème et 4ème p soient
+en police sans serif et plus gros
+
+on utilise un sélecteur de classe
+qui commence par un point
+
+*/
+
+.info{
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+/* le  span de l'élémen de classe .first
+   passe en rouge au survol */
+.first span:hover {
+    color:red;
+}
+
+/* un élément de 
+   classe .info devient gras au survol */
+.info:hover {
+    font-weight: bold;
+}
