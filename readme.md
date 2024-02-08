@@ -10,7 +10,7 @@ Terminer l'exercice box-in-box/healthy-smoothie
 - Les sélecteurs simples, class, pseudo-class
 - Box model 
 - Alignement avec flexbox 
-# A réviser pour Mars
+# A réviser pour évaluations du mois de Mars
 - support : https://github.com/seasgit/aide_html_css
 - exos vus
 - Mettre en pratique
