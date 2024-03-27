@@ -11,10 +11,13 @@ Terminer l'exercice box-in-box/healthy-smoothie
 - Box model 
 - Alignement avec flexbox 
 # A réviser pour évaluations du mois de Mars
+- revoir au prochain cours exo running
 - support : https://github.com/seasgit/aide_html_css
 - exos vus
 - Mettre en pratique
 
+## Cours du 27 mars
+- flexbox suite
 
 
 

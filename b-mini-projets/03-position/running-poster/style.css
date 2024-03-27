@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+.poster {
+    /* position relative permet aux éléments
+    positionnés dans la section d'être relatifs à cette section  */
+    position: relative;
+    width: 500px;
+    height: 700px;
+    margin: 20px auto 0 auto;
+    background-image: url(./images/fond-2.png);
+    background-size: cover;
+}
+
+
+.titre {
+    /* sa largeur est 100% de son conteneur .poster */
+    width: 100%;
+}
+
+/* 
+voir le support de cours 
+pour la position absolute
+*/
+
+.ombre {
+    width: 75%;
+    position: absolute;
+    top: 100px;left: 40px;
+}
+
+.sprinter {
+    width: 75%;
+    top: 60px; left: 100px;
+    position: absolute;
+}
+
+.logo {
+    width: 40%;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
